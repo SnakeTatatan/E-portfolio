@@ -1,0 +1,95 @@
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Eléments principaux de la page */
+
+body
+{
+    font-family :'Trebuchet MS', Arial, sans-serif;
+}
+
+#bloc_page
+{
+    width: 1300px;
+    margin : auto;
+}
+
+
+
+
+/* Header */
+
+
+header
+{
+    background-color: #d1b590;
+    font-family: Dayrom, serif;
+    display: flex;
+    justify-content:flex-start ;
+}
+
+header h1
+{
+    font-size:2.5em;
+    color: rgb(254, 126, 5);
+    font-family:cursive;
+    margin-left:10px;
+}
+
+
+header h2
+{
+    margin-left: 60px;
+    margin-top:45px;
+    font-style: italic;
+    color : rgba(73, 73, 139, 0.947);
+}
+
+
+/*Navigation*/
+
+nav ul
+{
+    list-style-type :none;
+    display:flex;
+    justify-content: space-around;
+
+}
+
+
+
+/*section*/
+
+#about_me
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
