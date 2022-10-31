@@ -8,38 +8,47 @@
     </head>
 
     <body>
-        <div id="bloc_page">
+        
             <header>
                 <h1>Ethan Friedmann</h1>
                 <h2>Engineering student at ENSEEIHT</h2>
             </header>
+            <div id="bloc_page">
 
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>CV</li>
-                    <li>Engineering course</li>
-                    <li>Civic engagement</li>
-                    <li>Hobbies</li>
-                    <li>My projects</li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">CV</a></li>
+                    <li><a href="">Engineering course</a></li>
+                    <li><a href="">Civic engagement</a></li>
+                    <li><a href="">Hobbies</a></li>
+                    <li><a href="">My projects</a></li>
                 </ul>
             </nav>
 
             <section>
                 <div id="about_me">
 
-                    <h1>About me</h1>
+                   <figure>
+                    <figcaption>About me :<br /></figcaption>
+                    <a href="images/moi(grand).jpg"><img src="images/moi(petit).jpg" alt="me :)" title="click to enlarge"/>  </a>
+                    
+                   </figure>
 
                     <article>
                         <p>
-                            <br/>Hello, my name is <strong>Ethan</strong>,<br/>
-                            I'm 21 years old and I'm currently studying at <strong>ENSEEIHT</strong>,an engineering school. <br/>
-                            I'm in my first year and I'm specialised in energy and electronic.<br/>
-                            Furthemore, I love work in team and share my knoledge. <br/>
-                            Nevertheles, I enjoy playing plenty of different sports and discover new skills.
+                            Hello, my name is <strong>Ethan</strong>,<br/>
+                            I'm 21 years old and I'm currently <br />
+                            studying at <strong>ENSEEIHT</strong>,an engineering school. <br/>
+                            I'm in my first year and I'm specialised<br/>
+                            in energy and electronic. Furthemore, I love work <br/>
+                            in team and share my knoledge. Nevertheles, I enjoy <br/>
+                            playing plenty of different sports and discover new skills.
                         </p>
+                        
+                        
                             
-                        <img src="" alt=""/>
+                        
                             
                     </article>
                 </div>
@@ -47,21 +56,41 @@
             </section>
 
             <section>
-                <figure>
-                    
-                    <img src="" alt="ENSEEIHT"/>
-                    <img src="" alt="Linkedin"/>
-                    <img src="" alt="Sport"/>
-                    <figcaption>pictures and links of my interest points</figcaption>
+
+                <figure id="interest_points">
+                    <div id="ENSEEIHT">
+                        <img src="images/ENSEEIHT.jpg" alt="ENSEEIHT"/>
+                        <div id="text_ENSEEIHT">
+                            I joined ENSEEIHT, a french engineering school in 2022.<br />
+                            the campus is located in Toulouse, France.
+                        </div> 
+                    </div>
+                    <div id="embedded_syst">
+                        <img  src="images/Embedded_systems.jpg" alt="Embedded systems"/>
+                        <div id="text_embedded_syst">
+                            I'm specialised in embedded systems,<br />
+                            an emerging field linked with electronic and energy.
+                        </div> 
+                    </div>
+                    <div id="sport">
+                        <img src="images/sports.jpg" alt="Sport"/>
+                        <div id="text_sport">
+                            I enjoy practice sport in my daily life.<br />
+                            Volleyball, soccer, tennis are some examples.
+                        </div>
+                    </div>
+
                 </figure>
+                 
             </section>
 
-            <section>
+            <section id="video_spitch">
                 <h1> Video pitch</h1>
+                <video src=""></video>
                 <p> my story in 3 minutes</p>
-                <video src=""> </video>
+                <video src="" preload="metadata"> </video>
             </section>
-
+            </div>
             <footer>
                 <ul>
                     <li>Home</li>
@@ -72,6 +101,6 @@
                     <li>My projects</li>
                 </ul>
             </footer>
-        </div>
+        
     </body>
 </html>
